@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --watchAll",
-    "dev-test": "nodemon dev-test"
+      "dev-test": "nodemon dev-test"
+      "start": "node ./app"
+      "dev": "nodemon ./app"
   },
   "keywords": [],
   "author": "o",
@@ -16,6 +18,7 @@
   },
   "dependencies": {
     "crypto-js": "^3.1.9-1",
+    "express": "^4.16.4",
     "jest-cli": "^23.6.0"
   },
   "repository": {
